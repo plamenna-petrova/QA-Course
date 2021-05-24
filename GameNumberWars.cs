@@ -47,11 +47,13 @@ namespace GameNumberWars
                         {
                             Console.WriteLine("Number wars!");
                             Console.WriteLine($"{firstPlayerName} is winner with {firstPlayerPoints} points");
+                            return;
                         }
                         else if (secondPlayerWarCard > firstPlayerWarCard)
                         {
                             Console.WriteLine("Number wars!");
                             Console.WriteLine($"{secondPlayerName} is winner with {secondPlayerPoints} points");
+                            return;
                         }
                     }
                 }
